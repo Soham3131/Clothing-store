@@ -77,7 +77,7 @@ const Footer = () => {
 
       {/* Copyright */}
       <div className="text-center text-sm text-gray-500 mt-20 pt-8 border-t border-gray-700 relative z-10">
-        &copy; {new Date().getFullYear()} **RDS BY RICHA SHAH**. All rights reserved.
+        &copy; {new Date().getFullYear()} RDS BY RICHA SHAH. All rights reserved.
       </div>
     </footer>
   );

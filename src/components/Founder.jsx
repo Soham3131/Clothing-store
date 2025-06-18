@@ -45,7 +45,7 @@ const Founder = () => {
           transition={{ duration: 0.6 }} // Faster animation duration
         >
           <p className="text-xl text-text-medium leading-relaxed mb-6 font-sans"> {/* Using new body font and color */}
-            "Welcome to **RDS BY RICHA SHAH**, where every creation tells a story of passion and heritage. As **Richa Shah**, I founded this brand with a vision to blend timeless elegance with modern comfort, offering pieces that empower you to express your unique style. Our commitment is to exceptional quality, ethical craftsmanship, and designs that truly resonate with you."
+            "Welcome to RDS BY RICHA SHAH, where every creation tells a story of passion and heritage. As Richa Shah, I founded this brand with a vision to blend timeless elegance with modern comfort, offering pieces that empower you to express your unique style. Our commitment is to exceptional quality, ethical craftsmanship, and designs that truly resonate with you."
           </p>
           <p className="text-lg text-primary-gold font-semibold italic font-heading"> {/* Accent color for signature, heading font for distinction */}
             – Richa Shah, Founder of RDS BY RICHA SHAH
