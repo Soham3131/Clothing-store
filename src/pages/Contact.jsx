@@ -15,17 +15,18 @@ export default function Contact() {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const sendToWhatsApp = () => {
-    // Ensuring the message is clearly formatted for WhatsApp and mentions the brand
-    const message = `Hello RDS BY RICHA SHAH Team,%0A%0A` +
-      `I have an inquiry from your website:%0A` +
-      `Name: ${form.name}%0A` +
-      `Email: ${form.email}%0A` +
-      `Interested In: ${form.inquiry}%0A` +
-      `Additional Details: ${form.details}%0A%0A` +
-      `Looking forward to your response!`;
-    window.open(`https://wa.me/919428001031?text=${encodeURIComponent(message)}`, '_blank');
-  };
+const sendToWhatsApp = () => {
+  const message = `Hello RDS BY RICHA SHAH Team,\n\n` +
+    `I have an inquiry from your website:\n` +
+    `Name: ${form.name}\n` +
+    `Email: ${form.email}\n` +
+    `Interested In: ${form.inquiry}\n` +
+    `Additional Details: ${form.details}\n\n` +
+    `Looking forward to your response!`;
+
+  window.open(`https://wa.me/919428001031?text=${encodeURIComponent(message)}`, '_blank');
+};
+
 
   return (
     // Consistent light background color
