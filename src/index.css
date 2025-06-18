@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Example in index.css after importing fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Lato:wght@400;700&display=swap');
+
+/* Define custom properties for easier use or configure Tailwind */
+:root {
+  --color-primary-accent: #A67C52;
+  --color-secondary-accent: #4A6B7F;
+  --color-text-dark: #333333;
+  --color-text-soft: #666666;
+  --color-bg-light: #FDFDFC;
+  --color-bg-contrast: #F5F0EB;
+}
+
+body {
+  font-family: 'Lato', sans-serif; /* Default body font */
+  color: #333333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif; /* Default heading font */
+}
